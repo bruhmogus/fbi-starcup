@@ -220,6 +220,11 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 1.5
     baseSprintSpeed: 2.5
+  - type: Butcherable # begin starcup
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeat
+      amount: 1 # end starcup
   - type: MeleeWeapon
     soundHit:
         path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
