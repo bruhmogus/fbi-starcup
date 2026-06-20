@@ -1,10 +1,10 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 268.1.0
-  forkId: latestation
-  forkVersion: 6d9195679947e8df29a6f5522759d16eac707d99
-  time: 01/12/2026 13:06:44
+  engineVersion: 275.2.0
+  forkId: ""
+  forkVersion: ""
+  time: 06/18/2026 07:41:58
   entityCount: 3856
 maps:
 - 2
@@ -96,7 +96,7 @@ entities:
           version: 7
         0,-2:
           ind: 0,-2
-          tiles: BQAAAAAAAAUAAAAAAAAFAAAAAAAAAAAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAABQAAAAAAAAUAAAAAAAAFAAAAAAAABQAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAAAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAAAAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAAAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAALAAAAAAAACwAAAAAAAAsAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAQAAAAAAAAAAAAAAAAACwAAAAAAAAsAAAAAAAALAAAAAAAAAAAAAAAAAAQAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAsAAAAAAAALAAAAAAAACwAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAA==
+          tiles: BQAAAAAAAAUAAAAAAAAFAAAAAAAAAAAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAABQAAAAAAAAUAAAAAAAAFAAAAAAAABQAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAAAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAAAAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAAAQAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAAAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAALAAAAAAAACwAAAAAAAAsAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAQAAAAAAAAAAAAAAAAACwAAAAAAAAsAAAAAAAALAAAAAAAAAAAAAAAAAAQAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAsAAAAAAAALAAAAAAAACwAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAACQAAAAAAAAkAAAAAAAAJAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAwAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAA==
           version: 7
         -1,-3:
           ind: -1,-3
@@ -1306,6 +1306,8 @@ entities:
     - type: ExplosionAirtightGrid
     - type: RadiationGridResistance
     - type: NavMap
+    - type: TileHistory
+      chunkHistory: {}
   - uid: 2
     components:
     - type: MetaData
@@ -1323,31 +1325,31 @@ entities:
     - type: Transform
       pos: -11.5,-61.5
       parent: 1
-- proto: AirlockCaptainGlassLocked
+- proto: AirlockCaptainGlassLockedSyndie
   entities:
-  - uid: 1763
+  - uid: 90
     components:
     - type: Transform
       pos: -1.5,-46.5
       parent: 1
-- proto: AirlockCaptainLocked
+- proto: AirlockCaptainLockedSyndie
   entities:
-  - uid: 1765
+  - uid: 101
     components:
     - type: Transform
       pos: -7.5,-44.5
       parent: 1
-  - uid: 1796
+  - uid: 109
     components:
     - type: Transform
       pos: -3.5,-45.5
       parent: 1
-  - uid: 1812
+  - uid: 121
     components:
     - type: Transform
       pos: -5.5,-49.5
       parent: 1
-  - uid: 1882
+  - uid: 122
     components:
     - type: Transform
       pos: 0.5,-52.5
@@ -1558,51 +1560,51 @@ entities:
     - type: Transform
       pos: 31.5,-55.5
       parent: 1
-- proto: AirlockResearchDirectorGlassLocked
+- proto: AirlockResearchDirectorGlassLockedSyndie
   entities:
-  - uid: 122
+  - uid: 133
     components:
     - type: Transform
       pos: 5.5,-22.5
       parent: 1
-  - uid: 133
+  - uid: 136
     components:
     - type: Transform
       pos: 7.5,-24.5
       parent: 1
-  - uid: 136
+  - uid: 137
     components:
     - type: Transform
       pos: 7.5,-20.5
       parent: 1
-  - uid: 137
+  - uid: 155
     components:
     - type: Transform
       pos: 9.5,-22.5
       parent: 1
-  - uid: 155
+  - uid: 199
     components:
     - type: Transform
       pos: 7.5,-12.5
       parent: 1
-- proto: AirlockResearchDirectorLocked
+- proto: AirlockResearchDirectorLockedSyndie
   entities:
-  - uid: 90
+  - uid: 857
     components:
     - type: Transform
       pos: 11.5,-22.5
       parent: 1
-  - uid: 101
+  - uid: 859
     components:
     - type: Transform
       pos: 7.5,-26.5
       parent: 1
-  - uid: 109
+  - uid: 1724
     components:
     - type: Transform
       pos: 7.5,-18.5
       parent: 1
-  - uid: 121
+  - uid: 1746
     components:
     - type: Transform
       pos: 3.5,-22.5
@@ -2005,6 +2007,10 @@ entities:
       pos: 0.691448,-57.473083
       parent: 1
     - type: Paper
+      stampedBy:
+      - stampLargeIcon: null
+        stampedColor: '#2F4F4FFF'
+        stampedName: Mary Whitewitch
       content: >2-
                                       [head=2]How and Why[/head]
 
@@ -2012,8 +2018,8 @@ entities:
 
                            [head=2]Should Secure the Disk[/head]
 
-                                       [bold]Authored by Mary
-                                       Published by Mary[/bold]
+                            [bold]Authored by Mary Whitewitch
+                            Published by Mary Whitewitch[/bold]
 
         [head=1]Why:[/head]
 
@@ -2187,13 +2193,6 @@ entities:
     components:
     - type: Transform
       pos: 5.3942947,-36.568497
-      parent: 1
-- proto: BoxPridePins
-  entities:
-  - uid: 3261
-    components:
-    - type: Transform
-      pos: 30.36734,-50.39995
       parent: 1
 - proto: Bucket
   entities:
@@ -2571,11 +2570,6 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-28.5
-      parent: 1
-  - uid: 360
-    components:
-    - type: Transform
-      pos: 7.5,-29.5
       parent: 1
   - uid: 366
     components:
@@ -8438,163 +8432,6 @@ entities:
     - type: Transform
       pos: 2.5,-54.5
       parent: 1
-- proto: CarpetSBlue
-  entities:
-  - uid: 2751
-    components:
-    - type: Transform
-      pos: 19.5,-44.5
-      parent: 1
-  - uid: 2752
-    components:
-    - type: Transform
-      pos: 19.5,-45.5
-      parent: 1
-  - uid: 2753
-    components:
-    - type: Transform
-      pos: 20.5,-45.5
-      parent: 1
-  - uid: 2754
-    components:
-    - type: Transform
-      pos: 21.5,-44.5
-      parent: 1
-  - uid: 2755
-    components:
-    - type: Transform
-      pos: 21.5,-45.5
-      parent: 1
-  - uid: 2756
-    components:
-    - type: Transform
-      pos: 20.5,-44.5
-      parent: 1
-  - uid: 2757
-    components:
-    - type: Transform
-      pos: 21.5,-48.5
-      parent: 1
-  - uid: 2758
-    components:
-    - type: Transform
-      pos: 21.5,-49.5
-      parent: 1
-  - uid: 2759
-    components:
-    - type: Transform
-      pos: 22.5,-48.5
-      parent: 1
-  - uid: 2760
-    components:
-    - type: Transform
-      pos: 22.5,-49.5
-      parent: 1
-  - uid: 2761
-    components:
-    - type: Transform
-      pos: 23.5,-49.5
-      parent: 1
-  - uid: 2762
-    components:
-    - type: Transform
-      pos: 23.5,-48.5
-      parent: 1
-  - uid: 2764
-    components:
-    - type: Transform
-      pos: 16.5,-53.5
-      parent: 1
-  - uid: 2765
-    components:
-    - type: Transform
-      pos: 16.5,-52.5
-      parent: 1
-  - uid: 2766
-    components:
-    - type: Transform
-      pos: 17.5,-53.5
-      parent: 1
-  - uid: 2767
-    components:
-    - type: Transform
-      pos: 17.5,-52.5
-      parent: 1
-  - uid: 2768
-    components:
-    - type: Transform
-      pos: 17.5,-51.5
-      parent: 1
-  - uid: 2769
-    components:
-    - type: Transform
-      pos: 16.5,-51.5
-      parent: 1
-  - uid: 2770
-    components:
-    - type: Transform
-      pos: 20.5,-49.5
-      parent: 1
-  - uid: 2771
-    components:
-    - type: Transform
-      pos: 20.5,-50.5
-      parent: 1
-  - uid: 2772
-    components:
-    - type: Transform
-      pos: 20.5,-51.5
-      parent: 1
-  - uid: 2773
-    components:
-    - type: Transform
-      pos: 20.5,-52.5
-      parent: 1
-  - uid: 2774
-    components:
-    - type: Transform
-      pos: 20.5,-53.5
-      parent: 1
-  - uid: 2775
-    components:
-    - type: Transform
-      pos: 20.5,-54.5
-      parent: 1
-  - uid: 2776
-    components:
-    - type: Transform
-      pos: 20.5,-55.5
-      parent: 1
-  - uid: 2777
-    components:
-    - type: Transform
-      pos: 20.5,-56.5
-      parent: 1
-  - uid: 2778
-    components:
-    - type: Transform
-      pos: 20.5,-57.5
-      parent: 1
-  - uid: 2779
-    components:
-    - type: Transform
-      pos: 21.5,-57.5
-      parent: 1
-  - uid: 2780
-    components:
-    - type: Transform
-      pos: 22.5,-56.5
-      parent: 1
-  - uid: 2781
-    components:
-    - type: Transform
-      pos: 22.5,-57.5
-      parent: 1
-  - uid: 2782
-    components:
-    - type: Transform
-      pos: 21.5,-56.5
-      parent: 1
 - proto: Catwalk
   entities:
   - uid: 2714
@@ -10250,6 +10087,18 @@ entities:
     - type: Transform
       pos: -11.5,-48.5
       parent: 1
+  - uid: 3871
+    components:
+    - type: Transform
+      pos: 31.5,-40.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        entity_storage:
+          ents:
+          - 3872
+          - 3873
+          - 3874
 - proto: ClosetMaintenanceFilledRandom
   entities:
   - uid: 3419
@@ -10327,26 +10176,6 @@ entities:
     - type: Transform
       pos: -11.5,-47.5
       parent: 1
-- proto: ClosetSteelBase
-  entities:
-  - uid: 3442
-    components:
-    - type: Transform
-      pos: 31.5,-40.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 3443
-          - 3444
-          - 3445
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: ClosetWallMaintenanceFilledRandom
   entities:
   - uid: 3542
@@ -10373,16 +10202,6 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 3831
-- proto: ClothingHandsGlovesColorGray
-  entities:
-  - uid: 3443
-    components:
-    - type: Transform
-      parent: 3442
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 3442
 - proto: ClothingHandsGlovesColorYellow
   entities:
   - uid: 3566
@@ -10412,22 +10231,19 @@ entities:
     - type: Transform
       pos: -8.440836,-52.21156
       parent: 1
-- proto: ClothingHeadHatHairflower
+- proto: ClothingHeadHatCommandSoftSyndieFlipped
   entities:
-  - uid: 3838
+  - uid: 3869
     components:
     - type: Transform
-      parent: 3831
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 3831
-- proto: ClothingHeadHatHopcap
-  entities:
-  - uid: 2721
+      rot: 4.71238898038469 rad
+      pos: 10.5,-35.5
+      parent: 1
+  - uid: 3870
     components:
     - type: Transform
-      pos: 23.676989,-46.12202
+      rot: 4.71238898038469 rad
+      pos: 10.5,-36.5
       parent: 1
 - proto: ClothingHeadHatTacticalMaidHeadband
   entities:
@@ -10450,16 +10266,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 35.413074,-61.971687
       parent: 1
-- proto: ClothingMaskBandGrey
-  entities:
-  - uid: 3444
-    components:
-    - type: Transform
-      parent: 3442
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 3442
 - proto: ClothingMaskGas
   entities:
   - uid: 3632
@@ -10560,16 +10366,6 @@ entities:
     - type: Transform
       pos: -21.5,-60.5
       parent: 1
-- proto: ClothingUniformJumpsuitMaintSurgeon
-  entities:
-  - uid: 3445
-    components:
-    - type: Transform
-      parent: 3442
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 3442
 - proto: ClothingUniformJumpsuitWeb
   entities:
   - uid: 3644
@@ -10646,23 +10442,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 22.5,-57.5
       parent: 1
-- proto: ComputerJobSlots
-  entities:
-  - uid: 857
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 12.5,-3.5
-      parent: 1
-    - type: AccessReader
-      accessListsOriginal:
-      - - HeadOfPersonnel
-  - uid: 2672
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 20.5,-57.5
-      parent: 1
 - proto: ComputerPowerMonitoring
   entities:
   - uid: 851
@@ -10687,11 +10466,11 @@ entities:
       parent: 1
 - proto: ComputerStationRecords
   entities:
-  - uid: 859
+  - uid: 1796
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 11.5,-3.5
+      pos: 12.5,-3.5
       parent: 1
 - proto: ComputerSurveillanceCameraMonitor
   entities:
@@ -11088,6 +10867,20 @@ entities:
     - type: Transform
       pos: 20.5,-62.5
       parent: 1
+- proto: DefaultStationBeaconAICore
+  entities:
+  - uid: 1763
+    components:
+    - type: Transform
+      pos: 7.5,-22.5
+      parent: 1
+- proto: DefaultStationBeaconAIUpload
+  entities:
+  - uid: 2363
+    components:
+    - type: Transform
+      pos: 7.5,-15.5
+      parent: 1
 - proto: DisgustingSweptSoup
   entities:
   - uid: 3616
@@ -11319,7 +11112,7 @@ entities:
     - type: Transform
       pos: -5.5,-46.5
       parent: 1
-  - uid: 2695
+  - uid: 3901
     components:
     - type: Transform
       pos: 20.5,-44.5
@@ -11481,6 +11274,16 @@ entities:
     - type: Transform
       pos: -7.587024,-53.637474
       parent: 1
+- proto: FoodPoppy
+  entities:
+  - uid: 3838
+    components:
+    - type: Transform
+      parent: 3831
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+      storage: 3831
 - proto: GameMasterCircuitBoard
   entities:
   - uid: 189
@@ -12036,38 +11839,6 @@ entities:
     - type: Transform
       pos: 12.530233,-52.4816
       parent: 1
-- proto: LeftArmSkeleton
-  entities:
-  - uid: 3814
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -12.911448,-57.38842
-      parent: 1
-- proto: LeftFootSkeleton
-  entities:
-  - uid: 3811
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -12.802073,-57.591545
-      parent: 1
-- proto: LeftHandSkeleton
-  entities:
-  - uid: 3815
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -12.942698,-57.38842
-      parent: 1
-- proto: LeftLegSkeleton
-  entities:
-  - uid: 3809
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -12.833323,-57.560295
-      parent: 1
 - proto: LightHeadBorg
   entities:
   - uid: 392
@@ -12110,9 +11881,9 @@ entities:
           - Toggle
     - type: Fixtures
       fixtures: {}
-- proto: LockerCaptainFilledNoLaser
+- proto: LockerCaptainFilledNoLaserSyndie
   entities:
-  - uid: 1801
+  - uid: 2367
     components:
     - type: Transform
       pos: -6.5,-43.5
@@ -12365,12 +12136,74 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 3433
-- proto: OrwellianCircuitBoard
+- proto: OrganSkeletonPersonArmLeft
   entities:
-  - uid: 193
+  - uid: 3814
     components:
     - type: Transform
-      pos: 9.469313,-17.5988
+      rot: 3.141592653589793 rad
+      pos: -12.911448,-57.38842
+      parent: 1
+- proto: OrganSkeletonPersonArmRight
+  entities:
+  - uid: 3816
+    components:
+    - type: Transform
+      pos: -13.192698,-57.591545
+      parent: 1
+- proto: OrganSkeletonPersonFootLeft
+  entities:
+  - uid: 3811
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -12.802073,-57.591545
+      parent: 1
+- proto: OrganSkeletonPersonFootRight
+  entities:
+  - uid: 3810
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -15.723948,-59.38842
+      parent: 1
+- proto: OrganSkeletonPersonHandLeft
+  entities:
+  - uid: 3815
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -12.942698,-57.38842
+      parent: 1
+- proto: OrganSkeletonPersonHandRight
+  entities:
+  - uid: 3817
+    components:
+    - type: Transform
+      pos: -13.223948,-57.591545
+      parent: 1
+- proto: OrganSkeletonPersonLegLeft
+  entities:
+  - uid: 3809
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -12.833323,-57.560295
+      parent: 1
+- proto: OrganSkeletonPersonLegRight
+  entities:
+  - uid: 3798
+    components:
+    - type: Transform
+      pos: -15.634674,-59.336163
+      parent: 1
+- proto: OrganSkeletonPersonTorso
+  entities:
+  - uid: 3812
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -12.895823,-57.51342
       parent: 1
 - proto: PaintingCafeTerraceAtNight
   entities:
@@ -12417,74 +12250,63 @@ entities:
       parent: 1
 - proto: Paper
   entities:
-  - uid: 199
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 4.570875,-17.325909
-      parent: 1
-    - type: Paper
-      stampState: paper_stamp-centcom
-      stampedBy:
-      - type: RubberStamp
-        stampedColor: '#006600FF'
-        stampedName: stamp-component-stamped-name-centcom
-      content: >-
-        [color=#1b487e]███░███░░░░██░░░░[/color]
-
-        [color=#1b487e]░██░████░░░██░░░░[/color] [head=3]Document form[/head]
-
-        [color=#1b487e]░░█░██░██░░██░█░░[/color][head=3]NanoTrasen[/head]
-
-        [color=#1b487e]░░░░██░░██░██░██░[/color] [bold]Station SPOTTY PD-COM[/bold]
-
-        [color=#1b487e]░░░░██░░░████░███[/color]
-
-
-        ==================================================
-
-
-        REMINDER
-
-
-        ==================================================
-
-
-        This is a formal reminder that the laws of the on-board station artificial intelligence should not be changed without good reason. Applying new lawboards because it is "humorous" will lead to reprimanding, termination, or cruel and unusual punishment.
-
-
-
-
-
-
-
-
-        ==================================================
-
-
-
-        [italic]Place for stamps[/italic]
   - uid: 1960
     components:
     - type: Transform
       pos: -7.279342,-51.924305
       parent: 1
     - type: Paper
+      stampState: paper_stamp-signature
+      stampedBy:
+      - stampLargeIcon: null
+        stampedColor: '#2F4F4FFF'
+        stampedName: Mary Whitewitch
       content: >-
-        Hiiii! I baked you a cake because... why not? Have a good shift!
+        [font="Playwrite"]Hiiii! I baked you a cake because... why not? Have a good shift!
 
 
-        Also, if you don't get a cake with this message, I also mailed a brick for you to throw at the Quartermaster.
-  - uid: 2552
+        Also, if you don't get a cake with this message, I also mailed a shard of glass for you to throw at the Quartermaster.[/font]
+  - uid: 2365
     components:
     - type: Transform
-      pos: -8.1606045,-57.52154
+      pos: -9.426821,-41.69198
       parent: 1
     - type: Paper
+      stampState: paper_stamp-syndicate
+      stampedBy:
+      - stampLargeIcon: large_stamp-syndcomm
+        stampedColor: '#664400FF'
+        stampedName: stamp-component-stamped-name-syndcomm
+      - stampLargeIcon: null
+        stampedColor: '#2F4F4FFF'
+        stampedName: Commander Zog
       content: >-
-        love you
+        Orders from up high demand we don't change a thing other than what's necessary in this room. Your accesses and lockers are changed out for the ones you need, but everything else is still NT-themed.
 
-        ♥
+
+        This request reeks of corruption or message interception, but... not my ass on the burner for this. Feel free to do whatever you want while you're here, though.
+  - uid: 2366
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 4.4700193,-17.324701
+      parent: 1
+    - type: Paper
+      stampState: paper_stamp-syndicate
+      stampedBy:
+      - stampLargeIcon: large_stamp-syndcomm
+        stampedColor: '#664400FF'
+        stampedName: stamp-component-stamped-name-syndcomm
+      content: >-
+        [color=#7d1e20 ]█▀  █▀▀  ▀█  [head=2]Syndicate Communications[/head]
+
+        █     ▀▀█     █  [bold]REMINDER[/bold]
+
+        ▀▀  ▀▀▀  ▀▀  [bold]Glory to the Syndicate![/bold]
+
+        ──────────────────────────────────────────[/color]
+
+        This is a formal reminder that the laws of the on-board station artificial intelligence should not be changed without good reason. Applying new lawboards because it is "humorous" will lead to reprimanding, termination, or cruel and unusual punishment.
 - proto: PaperBin20
   entities:
   - uid: 2399
@@ -12540,24 +12362,32 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -7.655516,-47.50657
       parent: 1
-- proto: PaperOffice
+- proto: PaperDyedTan
   entities:
-  - uid: 3796
+  - uid: 193
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 13.377951,-3.4884794
+      pos: -8.12768,-57.570976
       parent: 1
     - type: Paper
-      stampState: paper_stamp-centcom
+      stampState: paper_stamp-signature
       stampedBy:
-      - type: RubberStamp
-        stampedColor: '#006600FF'
-        stampedName: stamp-component-stamped-name-centcom
-      - type: Signature
-        stampedColor: '#333333FF'
-        stampedName: Super Duper Admiral Renzikov
-      content: I'M GONNA KICK YOUR FUCKING ASS IF YOU MAKE US FIX THE JOB DISTRIBUTION SYSTEM AGAIN!
+      - stampLargeIcon: null
+        stampedColor: '#2F4F4FFF'
+        stampedName: Mary ♥~
+      - stampLargeIcon: null
+        stampedColor: '#323232FF'
+        stampedName: stamp-component-stamped-name-greytide
+      content: >-
+        [font="Playwrite"][color=#d52d00]you are the love of my life.
+
+        [color=#ff9a56]you are the best thing that's ever happened to me.
+
+        [color=#ffffff]i'm so happy we're together and that we'll never be apart.
+
+        [color=#d362a4]it doesn't matter what happens, i'll love you forever.
+
+        [color=#a30262]till death do us part.[/font]
 - proto: PaperScrap
   entities:
   - uid: 2404
@@ -12616,13 +12446,6 @@ entities:
     - type: Transform
       pos: -11.555687,-23.645294
       parent: 1
-- proto: PhoneInstrumentCentcomm
-  entities:
-  - uid: 2389
-    components:
-    - type: Transform
-      pos: 7.4455595,-35.935684
-      parent: 1
 - proto: PlayerStationAi
   entities:
   - uid: 89
@@ -12634,6 +12457,9 @@ entities:
   entities:
   - uid: 1964
     components:
+    - type: MetaData
+      desc: A well-loved plushie depicting a doptera captain.
+      name: dusty plushie
     - type: Transform
       pos: -8.444717,-52.526424
       parent: 1
@@ -12668,64 +12494,12 @@ entities:
     - type: Transform
       pos: 31.962084,-52.076077
       parent: 1
-- proto: PosterHarmonyAlwaysWatching
-  entities:
-  - uid: 1724
-    components:
-    - type: Transform
-      pos: 3.5,-13.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyMaintsSlasher
-  entities:
-  - uid: 3416
-    components:
-    - type: Transform
-      pos: 36.5,-59.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 3537
-    components:
-    - type: Transform
-      pos: 26.5,-18.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
 - proto: PosterLegitBotanyFear
   entities:
   - uid: 3613
     components:
     - type: Transform
       pos: -12.5,-52.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterLegitCohibaRobustoAd
-  entities:
-  - uid: 1936
-    components:
-    - type: Transform
-      pos: -0.5,-53.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 3824
-    components:
-    - type: MetaData
-      desc: Cohiba Robusto, the- Hey, wait, are those sketch markings? Looks like NT forgot to send someone their copy of a poster...
-    - type: Transform
-      pos: -16.5,-58.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterLegitIan
-  entities:
-  - uid: 2722
-    components:
-    - type: Transform
-      pos: 17.5,-50.5
       parent: 1
     - type: Fixtures
       fixtures: {}
@@ -12756,6 +12530,18 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
+- proto: PosterLegitSyndicateLogo
+  entities:
+  - uid: 3857
+    components:
+    - type: Transform
+      pos: -0.5,-4.5
+      parent: 1
+  - uid: 3858
+    components:
+    - type: Transform
+      pos: 15.5,-4.5
+      parent: 1
 - proto: PoweredDimSmallLight
   entities:
   - uid: 2207
@@ -16353,35 +16139,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 9.142959,-27.747368
       parent: 1
-- proto: RightArmSkeleton
-  entities:
-  - uid: 3816
-    components:
-    - type: Transform
-      pos: -13.192698,-57.591545
-      parent: 1
-- proto: RightFootSkeleton
-  entities:
-  - uid: 3810
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -15.723948,-59.38842
-      parent: 1
-- proto: RightHandSkeleton
-  entities:
-  - uid: 3817
-    components:
-    - type: Transform
-      pos: -13.223948,-57.591545
-      parent: 1
-- proto: RightLegSkeleton
-  entities:
-  - uid: 3798
-    components:
-    - type: Transform
-      pos: -15.634674,-59.336163
-      parent: 1
 - proto: RobocopCircuitBoard
   entities:
   - uid: 196
@@ -16489,6 +16246,13 @@ entities:
     - type: Transform
       pos: 9.916396,-31.403618
       parent: 1
+- proto: ShardGlass
+  entities:
+  - uid: 2364
+    components:
+    - type: Transform
+      pos: -7.1939216,-52.032913
+      parent: 1
 - proto: ShelfBar
   entities:
   - uid: 3788
@@ -16546,52 +16310,40 @@ entities:
     - type: Transform
       pos: -5.5,-41.5
       parent: 1
-- proto: SignAi
+- proto: SignAiSyndie
   entities:
-  - uid: 2362
+  - uid: 1801
     components:
     - type: Transform
       pos: 5.5,-20.5
       parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2363
+  - uid: 1808
     components:
     - type: Transform
       pos: 9.5,-20.5
       parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2364
+  - uid: 1812
     components:
     - type: Transform
       pos: 9.5,-24.5
       parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2365
+  - uid: 1882
     components:
     - type: Transform
       pos: 5.5,-24.5
       parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: SignAiUpload
+- proto: SignAiUploadSyndie
   entities:
-  - uid: 2366
-    components:
-    - type: Transform
-      pos: 6.5,-12.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2367
+  - uid: 1936
     components:
     - type: Transform
       pos: 8.5,-12.5
       parent: 1
-    - type: Fixtures
-      fixtures: {}
+  - uid: 2362
+    components:
+    - type: Transform
+      pos: 6.5,-12.5
+      parent: 1
 - proto: SignalButtonWindows
   entities:
   - uid: 244
@@ -16653,22 +16405,6 @@ entities:
     components:
     - type: Transform
       pos: 15.5,-53.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-- proto: SignVault
-  entities:
-  - uid: 2360
-    components:
-    - type: Transform
-      pos: 10.5,-53.5
-      parent: 1
-    - type: Fixtures
-      fixtures: {}
-  - uid: 2361
-    components:
-    - type: Transform
-      pos: 10.5,-55.5
       parent: 1
     - type: Fixtures
       fixtures: {}
@@ -17283,6 +17019,13 @@ entities:
     - type: Transform
       pos: 30.5,-53.5
       parent: 1
+- proto: SpawnPointAdminAssistant
+  entities:
+  - uid: 1765
+    components:
+    - type: Transform
+      pos: 7.5,-4.5
+      parent: 1
 - proto: SpawnPointBartender
   entities:
   - uid: 3828
@@ -17513,9 +17256,9 @@ entities:
     - type: Transform
       pos: 24.5,-41.5
       parent: 1
-- proto: SuitStorageCaptain
+- proto: SuitStorageCaptainSyndie
   entities:
-  - uid: 1808
+  - uid: 2370
     components:
     - type: Transform
       pos: -6.5,-42.5
@@ -17974,74 +17717,60 @@ entities:
     - type: Transform
       pos: -7.5,-46.5
       parent: 1
+- proto: TableFancyRed
+  entities:
+  - uid: 3859
+    components:
+    - type: Transform
+      pos: 5.5,-35.5
+      parent: 1
+  - uid: 3860
+    components:
+    - type: Transform
+      pos: 6.5,-35.5
+      parent: 1
+  - uid: 3861
+    components:
+    - type: Transform
+      pos: 7.5,-35.5
+      parent: 1
+  - uid: 3862
+    components:
+    - type: Transform
+      pos: 8.5,-35.5
+      parent: 1
+  - uid: 3863
+    components:
+    - type: Transform
+      pos: 9.5,-35.5
+      parent: 1
+  - uid: 3864
+    components:
+    - type: Transform
+      pos: 9.5,-36.5
+      parent: 1
+  - uid: 3865
+    components:
+    - type: Transform
+      pos: 8.5,-36.5
+      parent: 1
+  - uid: 3866
+    components:
+    - type: Transform
+      pos: 7.5,-36.5
+      parent: 1
+  - uid: 3867
+    components:
+    - type: Transform
+      pos: 6.5,-36.5
+      parent: 1
+  - uid: 3868
+    components:
+    - type: Transform
+      pos: 5.5,-36.5
+      parent: 1
 - proto: TableFancySkyBlue
   entities:
-  - uid: 2616
-    components:
-    - type: Transform
-      pos: 22.5,-45.5
-      parent: 1
-  - uid: 2617
-    components:
-    - type: Transform
-      pos: 22.5,-47.5
-      parent: 1
-  - uid: 2618
-    components:
-    - type: Transform
-      pos: 22.5,-46.5
-      parent: 1
-  - uid: 2619
-    components:
-    - type: Transform
-      pos: 23.5,-45.5
-      parent: 1
-  - uid: 2674
-    components:
-    - type: Transform
-      pos: 16.5,-53.5
-      parent: 1
-  - uid: 2675
-    components:
-    - type: Transform
-      pos: 16.5,-52.5
-      parent: 1
-  - uid: 2690
-    components:
-    - type: Transform
-      pos: 19.5,-57.5
-      parent: 1
-  - uid: 2693
-    components:
-    - type: Transform
-      pos: 18.5,-57.5
-      parent: 1
-  - uid: 2716
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 19.5,-47.5
-      parent: 1
-  - uid: 2746
-    components:
-    - type: Transform
-      pos: 19.5,-45.5
-      parent: 1
-  - uid: 2763
-    components:
-    - type: Transform
-      pos: 23.5,-49.5
-      parent: 1
-  - uid: 2965
-    components:
-    - type: Transform
-      pos: 17.5,-49.5
-      parent: 1
-  - uid: 3612
-    components:
-    - type: Transform
-      pos: 18.5,-49.5
-      parent: 1
   - uid: 3763
     components:
     - type: Transform
@@ -18138,6 +17867,12 @@ entities:
     components:
     - type: Transform
       pos: 4.5,-0.5
+      parent: 1
+  - uid: 1747
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 11.5,-3.5
       parent: 1
   - uid: 2333
     components:
@@ -18282,15 +18017,6 @@ entities:
     - type: Transform
       pos: -2.6614509,-47.601727
       parent: 1
-- proto: ThrowingBrick
-  entities:
-  - uid: 2554
-    components:
-    - type: MetaData
-      desc: A weapon of the older times, designed to be tossed at hopeless Quartermasters.
-    - type: Transform
-      pos: -7.7393003,-51.93993
-      parent: 1
 - proto: ToiletGoldenDirtyWater
   entities:
   - uid: 1797
@@ -18313,18 +18039,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 8.451498,-31.302807
       parent: 1
-- proto: TorsoSkeleton
-  entities:
-  - uid: 3812
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -12.895823,-57.51342
-      parent: 1
 - proto: ToyFigurineMedicalDoctor
   entities:
   - uid: 1965
     components:
+    - type: MetaData
+      desc: A figurine depicting a female Medical Doctor with a ponytail and what seems to be a firearm in her satchel.
     - type: Transform
       pos: -6.512549,-52.40484
       parent: 1
@@ -22638,82 +22358,321 @@ entities:
     - type: Transform
       pos: -12.442169,-60.15375
       parent: 1
-- proto: PosterLegitSyndicateLogo
+- proto: DefaultStationBeaconSolarsNE
   entities:
-  - uid: 3857
+  - uid: 3876
     components:
     - type: Transform
-      pos: -0.5,-4.5
+      pos: 31.5,-11.5
       parent: 1
-  - uid: 3858
-    components:
-    - type: Transform
-      pos: 15.5,-4.5
-      parent: 1
-- proto: TableFancyRed
+- proto: DefaultStationBeaconSolarsNW
   entities:
-  - uid: 3859
+  - uid: 3877
     components:
     - type: Transform
-      pos: 5.5,-35.5
+      pos: -16.5,-11.5
       parent: 1
-  - uid: 3860
-    components:
-    - type: Transform
-      pos: 6.5,-35.5
-      parent: 1
-  - uid: 3861
-    components:
-    - type: Transform
-      pos: 7.5,-35.5
-      parent: 1
-  - uid: 3862
-    components:
-    - type: Transform
-      pos: 8.5,-35.5
-      parent: 1
-  - uid: 3863
-    components:
-    - type: Transform
-      pos: 9.5,-35.5
-      parent: 1
-  - uid: 3864
-    components:
-    - type: Transform
-      pos: 9.5,-36.5
-      parent: 1
-  - uid: 3865
-    components:
-    - type: Transform
-      pos: 8.5,-36.5
-      parent: 1
-  - uid: 3866
-    components:
-    - type: Transform
-      pos: 7.5,-36.5
-      parent: 1
-  - uid: 3867
-    components:
-    - type: Transform
-      pos: 6.5,-36.5
-      parent: 1
-  - uid: 3868
-    components:
-    - type: Transform
-      pos: 5.5,-36.5
-      parent: 1
-- proto: ClothingHeadHatCommandSoftSyndieFlipped
+- proto: SignVaultSyndie
   entities:
-  - uid: 3870
+  - uid: 3878
     components:
     - type: Transform
-      pos: 10.5,-36.5
+      pos: 10.5,-55.5
       parent: 1
-      rot: 4.71238898038469 rad
-  - uid: 3869
+  - uid: 3879
     components:
     - type: Transform
-      pos: 10.5,-35.5
+      pos: 10.5,-53.5
       parent: 1
-      rot: 4.71238898038469 rad
+- proto: PosterLegitIanSyndie
+  entities:
+  - uid: 3880
+    components:
+    - type: Transform
+      pos: 17.5,-50.5
+      parent: 1
+- proto: AirlockCommandGlassLockedSyndie
+  entities:
+  - uid: 3881
+    components:
+    - type: Transform
+      pos: 8.5,-58.5
+      parent: 1
+  - uid: 3882
+    components:
+    - type: Transform
+      pos: 6.5,-58.5
+      parent: 1
+  - uid: 3883
+    components:
+    - type: Transform
+      pos: 10.5,-61.5
+      parent: 1
+  - uid: 3884
+    components:
+    - type: Transform
+      pos: 4.5,-61.5
+      parent: 1
+  - uid: 3885
+    components:
+    - type: Transform
+      pos: 7.5,-64.5
+      parent: 1
+- proto: AirlockEVAGlassLockedSyndie
+  entities:
+  - uid: 3886
+    components:
+    - type: Transform
+      pos: 4.5,-61.5
+      parent: 1
+  - uid: 3887
+    components:
+    - type: Transform
+      pos: 0.5,-64.5
+      parent: 1
+  - uid: 3888
+    components:
+    - type: Transform
+      pos: -3.5,-61.5
+      parent: 1
+- proto: CarpetPink
+  entities:
+  - uid: 3895
+    components:
+    - type: Transform
+      pos: 19.5,-44.5
+      parent: 1
+  - uid: 3896
+    components:
+    - type: Transform
+      pos: 20.5,-44.5
+      parent: 1
+  - uid: 3897
+    components:
+    - type: Transform
+      pos: 21.5,-44.5
+      parent: 1
+  - uid: 3898
+    components:
+    - type: Transform
+      pos: 21.5,-45.5
+      parent: 1
+  - uid: 3899
+    components:
+    - type: Transform
+      pos: 20.5,-45.5
+      parent: 1
+  - uid: 3900
+    components:
+    - type: Transform
+      pos: 19.5,-45.5
+      parent: 1
+  - uid: 3908
+    components:
+    - type: Transform
+      pos: 20.5,-49.5
+      parent: 1
+  - uid: 3909
+    components:
+    - type: Transform
+      pos: 21.5,-49.5
+      parent: 1
+  - uid: 3910
+    components:
+    - type: Transform
+      pos: 21.5,-48.5
+      parent: 1
+  - uid: 3911
+    components:
+    - type: Transform
+      pos: 22.5,-48.5
+      parent: 1
+  - uid: 3912
+    components:
+    - type: Transform
+      pos: 23.5,-48.5
+      parent: 1
+  - uid: 3913
+    components:
+    - type: Transform
+      pos: 23.5,-49.5
+      parent: 1
+  - uid: 3914
+    components:
+    - type: Transform
+      pos: 22.5,-49.5
+      parent: 1
+  - uid: 3915
+    components:
+    - type: Transform
+      pos: 22.5,-57.5
+      parent: 1
+  - uid: 3916
+    components:
+    - type: Transform
+      pos: 21.5,-57.5
+      parent: 1
+  - uid: 3917
+    components:
+    - type: Transform
+      pos: 20.5,-57.5
+      parent: 1
+  - uid: 3918
+    components:
+    - type: Transform
+      pos: 20.5,-56.5
+      parent: 1
+  - uid: 3919
+    components:
+    - type: Transform
+      pos: 20.5,-55.5
+      parent: 1
+  - uid: 3920
+    components:
+    - type: Transform
+      pos: 21.5,-56.5
+      parent: 1
+  - uid: 3921
+    components:
+    - type: Transform
+      pos: 22.5,-56.5
+      parent: 1
+  - uid: 3922
+    components:
+    - type: Transform
+      pos: 20.5,-53.5
+      parent: 1
+  - uid: 3923
+    components:
+    - type: Transform
+      pos: 20.5,-52.5
+      parent: 1
+  - uid: 3924
+    components:
+    - type: Transform
+      pos: 20.5,-51.5
+      parent: 1
+  - uid: 3925
+    components:
+    - type: Transform
+      pos: 20.5,-50.5
+      parent: 1
+  - uid: 3926
+    components:
+    - type: Transform
+      pos: 20.5,-54.5
+      parent: 1
+  - uid: 3927
+    components:
+    - type: Transform
+      pos: 17.5,-53.5
+      parent: 1
+  - uid: 3928
+    components:
+    - type: Transform
+      pos: 17.5,-52.5
+      parent: 1
+  - uid: 3930
+    components:
+    - type: Transform
+      pos: 17.5,-51.5
+      parent: 1
+  - uid: 3931
+    components:
+    - type: Transform
+      pos: 16.5,-51.5
+      parent: 1
+  - uid: 3932
+    components:
+    - type: Transform
+      pos: 16.5,-52.5
+      parent: 1
+  - uid: 3933
+    components:
+    - type: Transform
+      pos: 16.5,-53.5
+      parent: 1
+- proto: TableFancyPink
+  entities:
+  - uid: 3902
+    components:
+    - type: Transform
+      pos: 19.5,-45.5
+      parent: 1
+  - uid: 3903
+    components:
+    - type: Transform
+      pos: 22.5,-47.5
+      parent: 1
+  - uid: 3904
+    components:
+    - type: Transform
+      pos: 22.5,-45.5
+      parent: 1
+  - uid: 3905
+    components:
+    - type: Transform
+      pos: 22.5,-46.5
+      parent: 1
+  - uid: 3906
+    components:
+    - type: Transform
+      pos: 23.5,-45.5
+      parent: 1
+  - uid: 3934
+    components:
+    - type: Transform
+      pos: 19.5,-57.5
+      parent: 1
+  - uid: 3935
+    components:
+    - type: Transform
+      pos: 18.5,-57.5
+      parent: 1
+  - uid: 3936
+    components:
+    - type: Transform
+      pos: 16.5,-52.5
+      parent: 1
+  - uid: 3937
+    components:
+    - type: Transform
+      pos: 16.5,-53.5
+      parent: 1
+  - uid: 3938
+    components:
+    - type: Transform
+      pos: 19.5,-47.5
+      parent: 1
+- proto: ClothingHeadHatHopcapSyndie
+  entities:
+  - uid: 3907
+    components:
+    - type: Transform
+      pos: 23.5,-46.5
+      parent: 1
+- proto: ClothingMaskBandGrey
+  entities:
+  - uid: 3872
+    components:
+    - type: Transform
+      parent: 3871
+    - type: Physics
+      canCollide: False
+- proto: ClothingHandsGlovesColorGray
+  entities:
+  - uid: 3873
+    components:
+    - type: Transform
+      parent: 3871
+    - type: Physics
+      canCollide: False
+- proto: ClothingEyesGlasses
+  entities:
+  - uid: 3874
+    components:
+    - type: Transform
+      parent: 3871
+    - type: Physics
+      canCollide: False
 ...
