@@ -26,7 +26,7 @@ public sealed partial class KitchenSpikeComponent : Component
     /// <summary>
     /// Default sound to play when the victim is butchered.
     /// </summary>
-    private static readonly ProtoId<SoundCollectionPrototype> DefaultSpikeButcher = new("SpikeButcher");
+    private static readonly SoundSpecifier DefaultSpikeButcher = new SoundPathSpecifier("/Audio/Items/Culinary/chop.ogg");
 
     /// <summary>
     /// ID of the container where the victim will be stored.
@@ -50,7 +50,7 @@ public sealed partial class KitchenSpikeComponent : Component
     /// Sound to play when the victim is butchered.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public SoundSpecifier ButcherSound = new SoundCollectionSpecifier(DefaultSpikeButcher);
+    public SoundSpecifier ButcherSound = new SoundPathSpecifier("/Audio/Items/Culinary/chop.ogg");
 
     /// <summary>
     /// Damage that will be applied to the victim when they are hooked or unhooked.
@@ -60,7 +60,7 @@ public sealed partial class KitchenSpikeComponent : Component
     {
         DamageDict = new()
         {
-            { "Piercing", 10 },
+            { "Piercing", 100 },
         },
     };
 
@@ -120,13 +120,13 @@ public sealed partial class KitchenSpikeComponent : Component
     /// This is summed up with a <see cref="ButcherableComponent"/>'s butcher delay in butcher DoAfter.
     /// </remarks>
     [DataField, AutoNetworkedField]
-    public TimeSpan ButcherDelayAlive = TimeSpan.FromSeconds(8000000);
+    public TimeSpan ButcherDelayAlive = TimeSpan.FromSeconds(8);
 
     /// <summary>
     /// Value by which the butchering delay will be multiplied if the victim is dead.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public float ButcherModifierDead = 0.000001f;
+    public float ButcherModifierDead = 0.5f;
 }
 
 [Serializable, NetSerializable]

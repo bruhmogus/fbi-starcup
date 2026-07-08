@@ -1,8 +1,8 @@
 - type: entity
   id: KitchenSpike
   parent: BaseStructure
-  name: meat spike
-  description: A spike for collecting meat from creatures larger or more unwieldy than a typical animal. SyndComm reminds you that it's quite difficult to butcher something with a curtain in your way, and impossible if it's trying to move, too. # starcup: rewritten for clarity with butchering changes
+  name: butchering station
+  description: A large station for cutting up larger animals. # starcup: rewritten for "not a spike" changes
   components:
   - type: InteractionOutline
   - type: Sprite
