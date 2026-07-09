@@ -60,7 +60,7 @@ public sealed partial class KitchenSpikeComponent : Component
     {
         DamageDict = new()
         {
-            { "Piercing", 250 }, # starcup
+            { "Piercing", 250 }, /// starcup
         },
     };
 
