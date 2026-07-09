@@ -30,7 +30,7 @@ comp-kitchen-spike-butcher = { CAPITALIZE(THE($user)) } butchered { THE($victim)
 
 comp-kitchen-spike-unhook-verb = Unhook
 
-comp-kitchen-spike-hooked = [color=red]{ CAPITALIZE(THE($victim)) } is on this butchering station![/color]
+comp-kitchen-spike-hooked = [color=red]{ CAPITALIZE(THE($victim)) } is on this butchering station![/color] # starcup
 
 comp-kitchen-spike-meat-name = { $name } ({ $victim })
 
