@@ -26,7 +26,7 @@ public sealed partial class KitchenSpikeComponent : Component
     /// <summary>
     /// Default sound to play when the victim is butchered.
     /// </summary>
-    private static readonly SoundSpecifier DefaultSpikeButcher = new SoundPathSpecifier("/Audio/Items/Culinary/chop.ogg");
+    private static readonly SoundSpecifier DefaultSpikeButcher = new SoundPathSpecifier("/Audio/Items/Culinary/chop.ogg"); # starcup
 
     /// <summary>
     /// ID of the container where the victim will be stored.
@@ -50,7 +50,7 @@ public sealed partial class KitchenSpikeComponent : Component
     /// Sound to play when the victim is butchered.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public SoundSpecifier ButcherSound = new SoundPathSpecifier("/Audio/Items/Culinary/chop.ogg");
+    public SoundSpecifier ButcherSound = new SoundPathSpecifier("/Audio/Items/Culinary/chop.ogg"); # starcup
 
     /// <summary>
     /// Damage that will be applied to the victim when they are hooked or unhooked.
