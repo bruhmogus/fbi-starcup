@@ -2,7 +2,7 @@
   id: KitchenSpike
   parent: BaseStructure
   name: butchering station
-  description: A large station for cutting up larger animals. # starcup: rewritten for "not a spike" changes
+  description: A large station for the humane killing and cutting up of larger animals. # starcup: rewritten for "not a spike" changes
   components:
   - type: InteractionOutline
   - type: Sprite
