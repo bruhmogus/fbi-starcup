@@ -28,7 +28,7 @@
 - type: entity
   parent: BasePDACartridge
   id: NanoTaskCartridge
-  name: SyndieTask cartridge # starcup
+  name: SyndieTask cartridge # starcup - renamed NanoTask
   description: A program that allows you to keep a list of tasks to do.
   components:
   - type: Sprite
