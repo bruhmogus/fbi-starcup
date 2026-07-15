@@ -166,7 +166,7 @@
   - type: PaperLabelType
     paperType: CaptainsPaper
   - type: PaperVisuals
-    headerImagePath: "/Textures/_starcup/Interface/Paper/paper_heading_captains_thoughts.svg.96dpi.png"
+    headerImagePath: "/Textures/_starcup/Interface/Paper/paper_heading_captains_thoughts.svg.96dpi.png" # starcup
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
     backgroundModulate: "#e6e6fa"
     backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
@@ -232,7 +232,7 @@
       visible: false
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_perforated.svg.96dpi.png"
-    headerImagePath: "/Textures/_starcup/Interface/Paper/paper_heading_syndietask.svg"
+    headerImagePath: "/Textures/_starcup/Interface/Paper/paper_heading_syndietask.svg" # starcup
     headerMargin: 0.0, 0.0, 0.0, 6.0
     backgroundImageTile: true
     backgroundPatchMargin: 0.0, 6.0, 0.0, 6.0
