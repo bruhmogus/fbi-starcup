@@ -1,0 +1,31 @@
+- type: gameMap
+  id: Transit
+  mapName: 'Transit'
+  mapPath: /Maps/_starcup/Transit.yml
+  maxRandomOffset: 0
+  randomRotation: false
+  minPlayers: 10
+  stations:
+    Transit:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Syndicate "Transit" {0}-{1}'
+          nameGenerator:
+            !type:SyndicateNameGenerator
+            prefixCreator: 'ED'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/_starcup/Shuttles/SYND_EvacShip.yml # starcup: added SYND_EvacShip.yml
+        - type: StationJobs
+          availableJobs: # 11 jobs + passengers
+            # service (8 - 9)
+            Bartender: [ 1, 1 ]
+            Botanist: [ 2, 2 ]
+            Chef: [ 1, 1 ]
+            Chaplain: [ 1, 1 ]
+            Librarian: [ 1, 1 ]
+            ServiceWorker: [ 2, 3 ]
+            # civilian
+            Passenger: [ -1, -1 ] #infinite, not counted
+            # silicon (2)
+            Borg: [ 2, 2 ]
