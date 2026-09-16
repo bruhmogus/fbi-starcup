@@ -4,17 +4,17 @@ meta:
   engineVersion: 288.1.0
   forkId: ""
   forkVersion: ""
-  time: 09/16/2026 20:05:25
-  entityCount: 5735
+  time: 09/16/2026 22:48:26
+  entityCount: 5734
 maps:
 - 1
 grids:
 - 2
 orphans: []
 nullspace:
+- 3065
 - 5733
 - 5734
-- 5735
 tilemap:
   4: Space
   1: FloorDarkDiagonal
@@ -63,6 +63,10 @@ entities:
     - type: ChunkContainer
       chunkEntities: []
     - type: OccluderTree
+    - type: BecomesStation
+      id: Transit
+    - type: Parallax
+      parallax: TrainStation
   - uid: 2
     components:
     - type: MetaData
@@ -233,9 +237,9 @@ entities:
       fixtures: {}
     - type: ChunkContainer
       chunkEntities:
+      - 3065
       - 5733
       - 5734
-      - 5735
     - type: OccluderTree
     - type: TileHistory
       chunkHistory: {}
@@ -10187,7 +10191,7 @@ entities:
       pos: 5.5,1.5
 - proto: ChunkEntity
   entities:
-  - uid: 5733
+  - uid: 3065
     components:
     - type: ChunkEntity
       root: 2
@@ -10204,7 +10208,7 @@ entities:
             0: 8,-182
             1: 8,-183
             2: 8,-184
-  - uid: 5734
+  - uid: 5733
     components:
     - type: ChunkEntity
       root: 2
@@ -10244,7 +10248,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             0: 0.0065089464,-227.92471
-  - uid: 5735
+  - uid: 5734
     components:
     - type: ChunkEntity
       root: 2
@@ -10829,13 +10833,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 8.5,-209.5
-- proto: CrateLockBoxService
-  entities:
-  - uid: 3065
-    components:
-    - type: Transform
-      parent: 2
-      pos: 8.5,-282.5
 - proto: CrateMaterialBrass
   entities:
   - uid: 3677
