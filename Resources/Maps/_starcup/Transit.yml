@@ -63,8 +63,6 @@ entities:
     - type: ChunkContainer
       chunkEntities: []
     - type: OccluderTree
-    - type: BecomesStation
-      id: Transit
     - type: Parallax
       parallax: TrainStation
   - uid: 2
@@ -74,6 +72,8 @@ entities:
     - type: Transform
       parent: 1
       pos: -1.9375,12.707886
+    - type: BecomesStation
+      id: Transit
     - type: MapGrid
       chunks:
         0,0:
@@ -748,6 +748,8 @@ entities:
     - type: GasTileOverlay
     - type: ExplosionAirtightGrid
     - type: RadiationGridResistance
+    - type: FTLDestination
+    - type: NavMap
 - proto: AirAlarmAutoLink
   entities:
   - uid: 5665
