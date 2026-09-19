@@ -4,17 +4,17 @@ meta:
   engineVersion: 288.1.0
   forkId: ""
   forkVersion: ""
-  time: 09/17/2026 21:26:17
-  entityCount: 5792
+  time: 09/19/2026 13:29:59
+  entityCount: 5782
 maps:
 - 1
 grids:
 - 2
 orphans: []
 nullspace:
-- 5790
-- 5791
-- 5792
+- 5778
+- 5779
+- 5780
 tilemap:
   4: Space
   1: FloorDarkDiagonal
@@ -63,8 +63,6 @@ entities:
     - type: ChunkContainer
       chunkEntities: []
     - type: OccluderTree
-    - type: BecomesStation
-      id: Transit
     - type: Parallax
       parallax: TrainStation
   - uid: 2
@@ -226,7 +224,7 @@ entities:
           version: 7
         0,-18:
           ind: 0,-18
-          tiles: BAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAHgAAAAAAAB4AAAAAAAAeAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAB4AAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAB4AAAAAAAAeAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAeAAAAAAAAHgAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAHgAAAAAAAB4AAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAA==
+          tiles: BAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAB8AAAAAAAAfAAAAAAAAHwAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAHgAAAAAAAB4AAAAAAAAeAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAB4AAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAB4AAAAAAAAeAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAeAAAAAAAAHgAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAHgAAAAAAAB4AAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAA==
           version: 7
     - type: Broadphase
     - type: Physics
@@ -237,9 +235,9 @@ entities:
       fixtures: {}
     - type: ChunkContainer
       chunkEntities:
-      - 5790
-      - 5791
-      - 5792
+      - 5778
+      - 5779
+      - 5780
     - type: OccluderTree
     - type: TileHistory
       chunkHistory: {}
@@ -748,6 +746,10 @@ entities:
     - type: GasTileOverlay
     - type: ExplosionAirtightGrid
     - type: RadiationGridResistance
+    - type: BecomesStation
+      id: Transit
+    - type: FTLDestination
+    - type: NavMap
 - proto: AirAlarmAutoLink
   entities:
   - uid: 5665
@@ -987,6 +989,13 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 1.5,-271.5
+- proto: AirlockExternalGlassShuttleEmergencyLocked
+  entities:
+  - uid: 5757
+    components:
+    - type: Transform
+      parent: 2
+      pos: 9.5,-279.5
 - proto: AirlockServiceLocked
   entities:
   - uid: 682
@@ -1538,6 +1547,24 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 5.5,-37.5
+  - uid: 3054
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 7.5,-281.5
+  - uid: 3061
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 7.5,-282.5
+  - uid: 3063
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 7.5,-280.5
   - uid: 3453
     components:
     - type: Transform
@@ -1550,6 +1577,21 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 1.5,-271.5
+  - uid: 4741
+    components:
+    - type: Transform
+      parent: 2
+      pos: 8.5,-279.5
+  - uid: 4760
+    components:
+    - type: Transform
+      parent: 2
+      pos: 10.5,-279.5
+  - uid: 5751
+    components:
+    - type: Transform
+      parent: 2
+      pos: 9.5,-279.5
 - proto: AtmosFixFreezerMarker
   entities:
   - uid: 683
@@ -7608,17 +7650,12 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 8.5,-280.5
+      pos: 10.5,-277.5
   - uid: 4740
     components:
     - type: Transform
       parent: 2
       pos: 2.5,-280.5
-  - uid: 4741
-    components:
-    - type: Transform
-      parent: 2
-      pos: 9.5,-280.5
   - uid: 4742
     components:
     - type: Transform
@@ -7709,16 +7746,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 2.5,-282.5
-  - uid: 4760
-    components:
-    - type: Transform
-      parent: 2
-      pos: 8.5,-282.5
-  - uid: 4761
-    components:
-    - type: Transform
-      parent: 2
-      pos: 9.5,-282.5
   - uid: 4762
     components:
     - type: Transform
@@ -10264,7 +10291,7 @@ entities:
       pos: 5.5,1.5
 - proto: ChunkEntity
   entities:
-  - uid: 5790
+  - uid: 5778
     components:
     - type: ChunkEntity
       root: 2
@@ -10281,7 +10308,7 @@ entities:
             0: 8,-182
             1: 8,-183
             2: 8,-184
-  - uid: 5791
+  - uid: 5779
     components:
     - type: ChunkEntity
       root: 2
@@ -10321,7 +10348,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             0: 0.0065089464,-227.92471
-  - uid: 5792
+  - uid: 5780
     components:
     - type: ChunkEntity
       root: 2
@@ -10377,12 +10404,6 @@ entities:
             39: 5,-280
             40: 6,-280
             41: 7,-280
-            42: 8,-280
-            43: 10,-280
-            44: 9,-280
-            45: 9,-281
-            46: 10,-281
-            47: 8,-281
             48: 7,-282
             49: 6,-281
             50: 5,-281
@@ -10407,12 +10428,6 @@ entities:
             69: 6,-283
             70: 7,-283
             71: 7,-281
-            72: 8,-282
-            73: 8,-283
-            74: 9,-283
-            75: 9,-282
-            76: 10,-282
-            77: 10,-283
             78: 2,-276
             80: 1,-276
 - proto: CigarGold
@@ -20444,6 +20459,28 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.5,-58.5
+- proto: HolosignSecurity
+  entities:
+  - uid: 5746
+    components:
+    - type: MetaData
+      desc: A barrier of hard light that blocks movement. This one appears to be projected from something in the floor. You probably shouldn't bother going over there.
+    - type: Transform
+      parent: 2
+      pos: 1.5,-273.5
+    missingComponents:
+    - TimedDespawn
+    - Destructible
+  - uid: 5756
+    components:
+    - type: MetaData
+      desc: A barrier of hard light that blocks movement. This one appears to be projected from something in the floor. You probably shouldn't bother going over there.
+    - type: Transform
+      parent: 2
+      pos: 0.5,-273.5
+    missingComponents:
+    - TimedDespawn
+    - Destructible
 - proto: hydroponicsTray
   entities:
   - uid: 663
@@ -20735,6 +20772,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 2.3177624,-229.42482
+- proto: Intellicard
+  entities:
+  - uid: 5758
+    components:
+    - type: Transform
+      parent: 2
+      pos: 9.325787,-1.3738623
 - proto: IntercomService
   entities:
   - uid: 5678
@@ -23464,12 +23508,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 0.5,-279.5
-  - uid: 3054
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: 8.5,-282.5
   - uid: 3055
     components:
     - type: Transform
@@ -24863,24 +24901,12 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 6.5,-277.5
-  - uid: 3061
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 9.5,-281.5
   - uid: 3062
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 8.5,-277.5
-  - uid: 3063
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 9.5,-279.5
   - uid: 3064
     components:
     - type: Transform
@@ -27067,13 +27093,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 0.943943,-90.2219
-- proto: SpawnPointAdminAssistant
-  entities:
-  - uid: 5746
-    components:
-    - type: Transform
-      parent: 2
-      pos: 5.5,-193.5
 - proto: SpawnPointAnyJob
   entities:
   - uid: 1968
@@ -27227,6 +27246,11 @@ entities:
       pos: 2.5,-196.5
 - proto: SpawnPointBorg
   entities:
+  - uid: 4761
+    components:
+    - type: Transform
+      parent: 2
+      pos: 5.5,-213.5
   - uid: 5762
     components:
     - type: Transform
@@ -27246,27 +27270,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 7.5,-195.5
-- proto: SpawnPointBrigmedic
-  entities:
-  - uid: 5760
-    components:
-    - type: Transform
-      parent: 2
-      pos: 9.5,-212.5
-- proto: SpawnPointCaptain
-  entities:
-  - uid: 5751
-    components:
-    - type: Transform
-      parent: 2
-      pos: 9.5,-198.5
-- proto: SpawnPointCargoAssistant
-  entities:
-  - uid: 5752
-    components:
-    - type: Transform
-      parent: 2
-      pos: 0.5,-198.5
 - proto: SpawnPointCargoTechnician
   entities:
   - uid: 5753
@@ -27288,27 +27291,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.5,-208.5
-- proto: SpawnPointChemist
-  entities:
-  - uid: 5756
-    components:
-    - type: Transform
-      parent: 2
-      pos: 8.5,-210.5
-- proto: SpawnPointChiefEngineer
-  entities:
-  - uid: 5757
-    components:
-    - type: Transform
-      parent: 2
-      pos: 1.5,-210.5
-- proto: SpawnPointChiefMedicalOfficer
-  entities:
-  - uid: 5758
-    components:
-    - type: Transform
-      parent: 2
-      pos: 6.5,-214.5
 - proto: SpawnPointClown
   entities:
   - uid: 5759
@@ -27316,41 +27298,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 1.5,-214.5
-- proto: SpawnPointCourier
-  entities:
-  - uid: 5761
-    components:
-    - type: Transform
-      parent: 2
-      pos: 10.5,-214.5
-- proto: SpawnPointDetective
-  entities:
-  - uid: 5763
-    components:
-    - type: Transform
-      parent: 2
-      pos: 10.5,-221.5
-- proto: SpawnPointHeadOfPersonnel
-  entities:
-  - uid: 5764
-    components:
-    - type: Transform
-      parent: 2
-      pos: 8.5,-225.5
-- proto: SpawnPointHeadOfSecurity
-  entities:
-  - uid: 5765
-    components:
-    - type: Transform
-      parent: 2
-      pos: 10.5,-225.5
-- proto: SpawnPointJanitor
-  entities:
-  - uid: 5766
-    components:
-    - type: Transform
-      parent: 2
-      pos: 10.5,-229.5
 - proto: SpawnPointLawyer
   entities:
   - uid: 5767
@@ -27365,20 +27312,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 8.5,-240.5
-- proto: SpawnPointMedicalDoctor
-  entities:
-  - uid: 5771
-    components:
-    - type: Transform
-      parent: 2
-      pos: 5.5,-237.5
-- proto: SpawnPointMedicalIntern
-  entities:
-  - uid: 5770
-    components:
-    - type: Transform
-      parent: 2
-      pos: 3.5,-240.5
 - proto: SpawnPointMime
   entities:
   - uid: 5772
@@ -27393,13 +27326,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.5,-251.5
-- proto: SpawnPointParamedic
+- proto: SpawnPointObserver
   entities:
-  - uid: 5774
+  - uid: 5752
     components:
     - type: Transform
       parent: 2
-      pos: 8.5,-251.5
+      pos: 3.5,-68.5
 - proto: SpawnPointPassenger
   entities:
   - uid: 5775
@@ -27407,20 +27340,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 8.5,-254.5
-- proto: SpawnPointPsychologist
-  entities:
-  - uid: 5776
-    components:
-    - type: Transform
-      parent: 2
-      pos: 4.5,-254.5
-- proto: SpawnPointQuartermaster
-  entities:
-  - uid: 5769
-    components:
-    - type: Transform
-      parent: 2
-      pos: 7.5,-238.5
 - proto: SpawnPointReporter
   entities:
   - uid: 5777
@@ -27428,55 +27347,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 7.5,-256.5
-- proto: SpawnPointResearchAssistant
-  entities:
-  - uid: 5778
-    components:
-    - type: Transform
-      parent: 2
-      pos: 2.5,-255.5
-- proto: SpawnPointResearchDirector
-  entities:
-  - uid: 5779
-    components:
-    - type: Transform
-      parent: 2
-      pos: 10.5,-257.5
-- proto: SpawnPointRoboticist
-  entities:
-  - uid: 5780
-    components:
-    - type: Transform
-      parent: 2
-      pos: 10.5,-260.5
-- proto: SpawnPointSalvageSpecialist
-  entities:
-  - uid: 5781
-    components:
-    - type: Transform
-      parent: 2
-      pos: 1.5,-260.5
-- proto: SpawnPointScientist
-  entities:
-  - uid: 5782
-    components:
-    - type: Transform
-      parent: 2
-      pos: 1.5,-253.5
-- proto: SpawnPointSecurityCadet
-  entities:
-  - uid: 5783
-    components:
-    - type: Transform
-      parent: 2
-      pos: 1.5,-251.5
-- proto: SpawnPointSecurityOfficer
-  entities:
-  - uid: 5784
-    components:
-    - type: Transform
-      parent: 2
-      pos: 3.5,-253.5
 - proto: SpawnPointServiceWorker
   entities:
   - uid: 5785
@@ -27484,20 +27354,69 @@ entities:
     - type: Transform
       parent: 2
       pos: 6.5,-254.5
-- proto: SpawnPointStationEngineer
+- proto: SpawnPointSyndCommAgent
   entities:
-  - uid: 5786
+  - uid: 5760
     components:
     - type: Transform
       parent: 2
-      pos: 2.5,-259.5
-- proto: SpawnPointTechnicalAssistant
-  entities:
-  - uid: 5787
+      pos: 3.5,-5.5
+  - uid: 5769
     components:
     - type: Transform
       parent: 2
-      pos: 0.5,-262.5
+      pos: 2.5,-7.5
+  - uid: 5770
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-5.5
+- proto: SpawnPointSyndCommOfficer
+  entities:
+  - uid: 5761
+    components:
+    - type: Transform
+      parent: 2
+      pos: 5.5,1.5
+  - uid: 5766
+    components:
+    - type: Transform
+      parent: 2
+      pos: 0.5,-6.5
+  - uid: 5774
+    components:
+    - type: Transform
+      parent: 2
+      pos: 2.5,-5.5
+- proto: SpawnPointSyndCommOfficial
+  entities:
+  - uid: 5763
+    components:
+    - type: Transform
+      parent: 2
+      pos: 9.5,-5.5
+  - uid: 5771
+    components:
+    - type: Transform
+      parent: 2
+      pos: 8.5,-7.5
+  - uid: 5776
+    components:
+    - type: Transform
+      parent: 2
+      pos: 4.5,1.5
+- proto: SpawnPointSyndCommOperator
+  entities:
+  - uid: 5764
+    components:
+    - type: Transform
+      parent: 2
+      pos: 4.5,-5.5
+  - uid: 5765
+    components:
+    - type: Transform
+      parent: 2
+      pos: 6.5,-5.5
 - proto: SpawnPointTramDriver
   entities:
   - uid: 5788
@@ -27505,13 +27424,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 9.5,-256.5
-- proto: SpawnPointWarden
-  entities:
-  - uid: 5789
-    components:
-    - type: Transform
-      parent: 2
-      pos: 6.5,-250.5
 - proto: SprayBottleSpaceCleaner
   entities:
   - uid: 1086
